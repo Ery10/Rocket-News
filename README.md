@@ -6,7 +6,7 @@
 
 Desafio construído no discover da Rocketseat.
 
-[🔗Clique aqui para acessar](https://ery10.github.io/Social-Tree/)
+[🔗Clique aqui para acessar](https://ery10.github.io/Rocket-News/)
 
 ##  🛠 Tecnologias
 
