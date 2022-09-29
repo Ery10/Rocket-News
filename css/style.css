@@ -1,0 +1,139 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Spartan', 'Work Sans', sans-serif;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 720px 1fr;
+}
+main {
+    height: 100vh;
+    background-color:var(--body-bg-color);
+
+    height: 100vh;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+aside {
+    height: 100vh;
+    background-image: url(../assets/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.logo {
+    max-width: 389px;
+}
+.news{
+    margin-top: 92px;
+    margin-bottom: 50px;
+    padding-left: 6px;
+}
+.news h2 {
+    line-height: 100%;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--title-color);
+}
+.news h3 {
+    line-height: 100%;
+    font-style: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--text-color);
+
+    margin-top: 11px;
+}
+.news p {
+    line-height: 123.87%;
+    color: var(--form-color);
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 19px;
+
+    margin-top: 9px;
+}
+#form fieldset {
+    border: none;
+    padding: 0;
+}
+#form legend{
+    padding-left: 6px;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 14px;
+    line-height: 19px;
+    line-height: 139%;
+    color: var(--form-color);
+}
+#email {
+    padding-left: 6px;
+    display: flex;
+    width: 798px;
+    height: 48px;
+    margin-top: 17px;
+}
+#email input {
+    width: 789px;
+    border: none;
+    filter: drop-shadow(5px 10px 15px rgba(0, 0, 0, 0.5));
+    border-left: solid 5px var(--title-color);
+    padding: 10px;
+
+    font-family: 'Work Sans', 'sans-serif';
+    font-weight: 500;
+    size: 16px;
+    line-height: 14.08px;
+    line-height: 100%;
+
+    color: black;
+}
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+#email button {
+    width: 48px;
+    height: 48px;
+    border: none;
+    background-color: var(--bg-button-color);
+    z-index: 1;
+}
+button:hover {
+    cursor:pointer;
+}
+.link{
+    padding-left: 6px;
+    margin-top: 50px;
+    align-items: center;
+}
+.link a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.link p {
+    color: var(--bg-button-color);
+    font-weight: 700;
+    size: 14px;
+    line-height: 19.42px;
+}
+
+
